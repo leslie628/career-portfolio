@@ -7,7 +7,7 @@ const Card = ({ project }) => {
         <p className="text-base mb-4">{project.description}</p>
         <div className="links">
             <Button variant="outline" className="button-link" asChild>
-                <a href={project} target="_blank" rel="noopener noreferrer">
+                <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <Code className="mr-2 h-4 w-4" /><span className="link-text">GitHub</span>
                 </a>
             </Button>
