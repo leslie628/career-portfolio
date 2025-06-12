@@ -10,6 +10,7 @@ const projects = [
     description:
       "A dissertation project showcasing microfrontend architecture using React, single-spa, SystemJS, and Azure Blob Storage.",
     github: "https://github.com/leslie628/microfrontends-portfolio",
+    docs: "https://github.com/leslie628/Shell-app/tree/main/docs",
     demo: "https://storagefrontendapps.z33.web.core.windows.net",
     video: "https://youtu.be/your-video-link",
   }

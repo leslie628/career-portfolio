@@ -10,6 +10,10 @@ const Card = ({ project }) => {
                 <a href={project.github} target="_blank" rel="noopener noreferrer">
                     <Code className="mr-2 h-4 w-4" /><span className="link-text">GitHub</span>
                 </a>
+                |
+                <a href={project.docs} target="_blank" rel="noopener noreferrer">
+                    <Code className="mr-2 h-4 w-4" /><span className="link-text">Docs</span>
+                </a>
             </Button>
             <Button variant="outline" className="button-link" asChild>
                 <a href={project.demo} target="_blank" rel="noopener noreferrer">
