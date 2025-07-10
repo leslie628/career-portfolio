@@ -3,16 +3,18 @@ import React from "react";
 import './App.css';
 import Card from "./card-component/card";
 
-
+let descriptionContent="Evaluation of key non-functional attributes such as modularity, scalability, team autonomy, performance, framework independence and maintainability.";
+descriptionContent +=" Tools used: single-spa, SystemJS, Azure Blob Storage and Azure DevOps CI/CD";
 const projects = [
   {
-    title: "Microfrontend Architecture",
-    description:
-      "A dissertation project showcasing microfrontend architecture using React, single-spa, SystemJS, and Azure Blob Storage.",
+    title: "Micro Frontend vs Monolithic architecture",
+    description: descriptionContent,
     github: "https://github.com/leslie628/microfrontends-portfolio",
     docs: "https://github.com/leslie628/Shell-app/tree/main/docs",
     demo: "https://storagefrontendapps.z33.web.core.windows.net",
     video: "https://youtu.be/your-video-link",
+    architecture: "https://github.com/leslie628/microfrontends-portfolio/blob/main/images/Monolith-MicroFrontend-Architecture.png"
+
   }
   // Add more projects as needed
 ];
