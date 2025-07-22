@@ -18,7 +18,7 @@ const Card = ({ project }) => {
             </Button>
             <Button variant="outline" className="button-link" asChild>
                 <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="mr-2 h-4 w-4" /><span className="link-text">Live Demo</span>
+                    <ExternalLink className="mr-2 h-4 w-4" /><span className="link-text">Live site</span>
                 </a>
             </Button>
             <Button variant="outline" className="button-link" asChild>

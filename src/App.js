@@ -12,9 +12,8 @@ const projects = [
     github: "https://github.com/leslie628/microfrontends-portfolio",
     docs: "https://github.com/leslie628/Shell-app/tree/main/docs",
     demo: "https://storagefrontendapps.z33.web.core.windows.net",
-    video: "https://youtu.be/your-video-link",
+    video: "https://youtu.be/LXQmrl_hIks?si=kJiKWpV68PXnwgeg",
     architecture: "https://github.com/leslie628/microfrontends-portfolio/blob/main/images/Monolith-MicroFrontend-Architecture.png"
-
   }
   // Add more projects as needed
 ];
