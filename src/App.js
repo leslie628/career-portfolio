@@ -5,6 +5,12 @@ import Card from "./card-component/card";
 
 let descriptionContent="Evaluation of key non-functional attributes such as modularity, scalability, team autonomy, performance, framework independence and maintainability.";
 descriptionContent +=" Tools used: single-spa, SystemJS, Azure Blob Storage and Azure DevOps CI/CD";
+
+let descriptionContentProject2="Products grid display and search input with category filter."
+descriptionContentProject2 +=" Tech used: Next.js, TailWind CSS";
+
+let descriptionContentProject3="A fully responsive pricing UI. Includes hover animations, reusable components, and scalable architecture."
+descriptionContentProject3 +=" Tech used: React, TailWind CSS";
 const projects = [
   {
     title: "Micro Frontend vs Monolithic architecture",
@@ -14,8 +20,17 @@ const projects = [
     demo: "https://storagefrontendapps.z33.web.core.windows.net",
     video: "https://youtu.be/mgEzUR9jNC0?list=PLlvAnEJamXnzoip9y9nC-FqSN20fNSiBx",
     architecture: "https://github.com/leslie628/microfrontends-portfolio/blob/main/images/Monolith-MicroFrontend-Architecture.png"
+  },
+   {
+    title: "Products browse and search web app",
+    description: descriptionContentProject2,
+    demo: "https://next-js-products-app.vercel.app/products"
+  },
+   {
+    title: "Responsive Pricing Plans UI",
+    description: descriptionContentProject3,
+    demo: "https://pricing-plan-upwork.vercel.app/"
   }
-  // Add more projects as needed
 ];
 
 function App() {
@@ -27,7 +42,7 @@ function App() {
        <div className="p-6 max-w-4xl mx-auto">
     
       <p className="text-lg mb-8">
-        Welcome! I have created this Portfolio to showcase my MSc dissertation project.
+        Welcome! I have created this Portfolio to showcase my MSc dissertation project and other work.
       </p>
       <div className="grid-layout">
         {projects.map((project, index) => (
