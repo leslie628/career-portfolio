@@ -105,14 +105,13 @@ const BusinessImpact = () => {
                         <li className="flex items-start gap-2">
                             <span className="text-green-600 mt-1">✔</span>
                             <span>
-                                Reduces unnecessary CI/CD compute time, directly lowering infrastructure
-                                costs.
+                                Teams can deploy independently without conflicts
                             </span>
                         </li>
                         <li className="flex items-start gap-2">
                             <span className="text-green-600 mt-1">✔</span>
                             <span>
-                                Teams can deploy independently without conflicts.
+                                Teams own their sub-apps → less coordination overhead.
                             </span>
                         </li>
                     </ul>
@@ -124,7 +123,7 @@ const BusinessImpact = () => {
                     <ul className="p-4 space-y-2">
                         <li className="flex items-start gap-2">
                             <span className="text-green-600 mt-1">✔</span>
-                            <span>Each sub-app has its own storage → avoids conflicts and accidental overwrites.</span>
+                            <span>Each sub-app (yellow) has its own storage → avoids conflicts and accidental overwrites.</span>
                         </li>
                         <li className="flex items-start gap-2">
                             <span className="text-green-600 mt-1">✔</span>
