@@ -46,7 +46,7 @@ function Home() {
         </p>
         <div className="flex justify-between items-center gap-10">
           <div className="rounded-lg shadow-lg">
-            <img src="/images/Monolith-MicroFrontend-Architecture.png" className="w-[35vw]" />
+            <img alt="architecture" src="/images/Monolith-MicroFrontend-Architecture.png" className="w-[35vw]" />
             <div className="flex items-center justify-center mb-5">
             <button className="px-4 py-2 mt-6 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors" onClick={()=>navigate("/business-impact")}>
               View business impact

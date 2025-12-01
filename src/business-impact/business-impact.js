@@ -7,7 +7,7 @@ const BusinessImpact = () => {
         <div className="flex pt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
             <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                 <h2 className="text-2xl font-semibold flex justify-center">Monolith</h2>
-                <img src="/images/monolith-artifact.png" />
+                <img alt="monolith app" src="/images/monolith-artifact.png" />
                 <VideoCard videoUrl="https://www.youtube.com/embed/mgEzUR9jNC0" />
                 <ul className="p-4 space-y-2">
                       <h2 className="font-semibold">Large build artifacts (73.96 KB including framework)</h2>
@@ -29,7 +29,7 @@ const BusinessImpact = () => {
             </div>
             <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                 <h2 className="text-2xl font-semibold flex justify-center">Micro-frontend</h2>
-                <img src="/images/subapp-artifact.png" />
+                <img alt="sub application" src="/images/subapp-artifact.png" />
                 <VideoCard videoUrl="https://www.youtube.com/embed/mgEzUR9jNC0" />
                 <ul className="p-4">
                      <h2 className="font-semibold">Smaller build artifacts (15.3 KiB)</h2>
@@ -56,7 +56,7 @@ const BusinessImpact = () => {
             </div>
             <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                 <h2 className="text-2xl font-semibold flex justify-center">Independent pipelines</h2>
-                <img src="/images/allPipelines.png" />
+                <img alt="Independent pipelines" src="/images/allPipelines.png" />
                 <VideoCard videoUrl="https://www.youtube.com/embed/mgEzUR9jNC0" />
                 <ul className="p-4 space-y-2">
                     <h2 className="font-semibold">Independent Pipelines</h2>
@@ -86,7 +86,7 @@ const BusinessImpact = () => {
             </div>
             <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                 <h2 className="text-2xl font-semibold flex justify-center">Independent Repos</h2>
-                <img src="/images/microfrontend-repos.png" />
+                <img alt="Independent repo" src="/images/microfrontend-repos.png" />
                 <VideoCard videoUrl="https://www.youtube.com/embed/mgEzUR9jNC0" />
                 <ul className="p-4">
                     <li className="flex items-center gap-2">
@@ -97,7 +97,7 @@ const BusinessImpact = () => {
             </div>
             <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                 <h2 className="text-2xl font-semibold flex justify-center">Independent Blob storage</h2>
-                <img src="/images/azure-blob-container.png" />
+                <img alt="Independent blob containers" src="/images/azure-blob-container.png" />
                 <VideoCard videoUrl="https://www.youtube.com/embed/mgEzUR9jNC0" />
                 <ul className="p-4">
                     <li className="flex items-center gap-2">
