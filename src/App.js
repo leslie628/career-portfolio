@@ -41,12 +41,12 @@ function Home() {
   return (
     <div>
       <div className="p-6 max-w-9xl mx-auto">
-        <p className="text-lg mb-8 flex items-center justify-center">
+        <p className="text-lg mb-8 flex items-center font-bold justify-center">
           Welcome! I have created this Portfolio to showcase my MSc dissertation project and other work.
         </p>
         <div className="flex justify-between items-center gap-10">
           <div className="rounded-lg shadow-lg">
-            <img alt="architecture" src="/images/Monolith-MicroFrontend-Architecture.png" className="w-[35vw]" />
+            <img alt="architecture" src="/images/Monolith-MicroFrontend-Architecture.png" className="w-full max-w-[520px] h-auto" />
             <div className="flex items-center justify-center mb-5">
             <button className="px-4 py-2 mt-6 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors" onClick={()=>navigate("/business-impact")}>
               View business impact
