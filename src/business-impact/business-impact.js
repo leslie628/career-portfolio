@@ -15,7 +15,7 @@ const BusinessImpact = () => {
             </div>
 
             <div className="pt-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
-                <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
+                <div className="relative shadow-lg rounded-lg p-3 group">
                     <h2 className="text-2xl font-semibold flex justify-center">Monolith</h2>
                     <img alt="monolith app" src="/images/monolith-artifact.png" />
                     <ul className="p-4 space-y-2">
@@ -36,7 +36,7 @@ const BusinessImpact = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
+                <div className="relative shadow-lg rounded-lg p-3 group">
                     <h2 className="text-2xl font-semibold flex justify-center">Micro-frontend</h2>
                     <img alt="sub application" src="/images/subapp-artifact.png" />
                     <ul className="p-4">
@@ -62,7 +62,7 @@ const BusinessImpact = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
+                <div className="relative shadow-lg rounded-lg p-3 group">
                     <h2 className="text-2xl font-semibold flex justify-center">Independent pipelines</h2>
                     <img alt="Independent pipelines" src="/images/allPipelines.png" />
                     <ul className="p-4 space-y-2">
@@ -101,7 +101,7 @@ const BusinessImpact = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
+                <div className="relative shadow-lg rounded-lg p-3 group">
                     <h2 className="text-2xl font-semibold flex justify-center">Independent Repos</h2>
                     <img alt="Independent repo" src="/images/microfrontend-repos.png" />
                     <ul className="p-4 space-y-2">
@@ -120,7 +120,7 @@ const BusinessImpact = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
+                <div className="relative shadow-lg rounded-lg p-3 group">
                     <h2 className="text-2xl font-semibold flex justify-center">Independent Blob storage</h2>
                     <img alt="Independent blob containers" src="/images/azure-blob-container.png" />
                     <ul className="p-4 space-y-2">
@@ -137,6 +137,12 @@ const BusinessImpact = () => {
                 <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                     <h2 className="text-2xl font-semibold flex justify-center">Scalable architecture</h2>
                     <img alt="Independent blob containers" src="/images/import-maps-azure.png" />
+
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                        <button className="bg-red-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-red-700 pointer-events-auto">
+                            ▶ Watch Video
+                        </button>
+                    </div>
                     <VideoCard videoUrl="https://www.youtube.com/embed/uS-tPyuSJvk" />
                     <ul className="p-4 space-y-2">
                         <li className="flex items-start gap-2">
@@ -160,6 +166,12 @@ const BusinessImpact = () => {
                 <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                     <h2 className="text-2xl font-semibold flex justify-center">Lower Risk & Increased Reliability</h2>
                     <img alt="Independent blob containers" src="/images/MicroApp-error.png" />
+
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                        <button className="bg-red-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-red-700 pointer-events-auto">
+                            ▶ Watch Video
+                        </button>
+                    </div>
                     <VideoCard videoUrl="https://www.youtube.com/embed/DkGE9af1MDM" />
                     <ul className="p-4 space-y-2">
                         <li className="flex items-start gap-2">
