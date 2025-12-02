@@ -65,7 +65,6 @@ const BusinessImpact = () => {
                 <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                     <h2 className="text-2xl font-semibold flex justify-center">Independent pipelines</h2>
                     <img alt="Independent pipelines" src="/images/allPipelines.png" />
-                    <VideoCard videoUrl="https://www.youtube.com/embed/mgEzUR9jNC0" />
                     <ul className="p-4 space-y-2">
                         <h2 className="font-semibold">Independent Pipelines</h2>
                         <li className="flex items-start gap-2">
@@ -105,7 +104,6 @@ const BusinessImpact = () => {
                 <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                     <h2 className="text-2xl font-semibold flex justify-center">Independent Repos</h2>
                     <img alt="Independent repo" src="/images/microfrontend-repos.png" />
-                    <VideoCard videoUrl="https://www.youtube.com/embed/mgEzUR9jNC0" />
                     <ul className="p-4 space-y-2">
                         <h2 className="font-semibold">Team Autonomy & Ownership</h2>
                         <li className="flex items-start gap-2">
@@ -125,7 +123,6 @@ const BusinessImpact = () => {
                 <div className="relative shadow-lg rounded-lg p-3 group cursor-pointer">
                     <h2 className="text-2xl font-semibold flex justify-center">Independent Blob storage</h2>
                     <img alt="Independent blob containers" src="/images/azure-blob-container.png" />
-                    <VideoCard videoUrl="https://www.youtube.com/embed/mgEzUR9jNC0" />
                     <ul className="p-4 space-y-2">
                         <li className="flex items-start gap-2">
                             <span className="text-green-600 mt-1">✔</span>
