@@ -24,6 +24,15 @@ const projects = [
     video: "https://youtu.be/mgEzUR9jNC0?list=PLlvAnEJamXnzoip9y9nC-FqSN20fNSiBx",
     architecture: "https://github.com/leslie628/microfrontends-portfolio/blob/main/images/Monolith-MicroFrontend-Architecture.png"
   },
+    {
+    title: "AI boxing analytics app",
+    description: 'AI-powered boxing analytics.',
+    github: "",
+    docs: "",
+    demo: "",
+    video: "",
+    architecture: ""
+  },
   {
     title: "Products browse and search web app",
     description: descriptionContentProject2,
