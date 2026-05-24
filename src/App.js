@@ -43,11 +43,11 @@ const projects = [
     title: "Task Management Web app",
     description:
       "A production-style full stack task management application built with React, ASP.NET Core Web API, and PostgreSQL. Features secure JWT authentication using HTTP-only cookies, protected API routes, cross-origin frontend/backend integration, and cloud deployment with Render and Supabase.",
-    github: "",
+    github: "https://github.com/leslie628/task-web-app",
     docs: "",
     demo: "https://task-web-app-amber.vercel.app/",
     video: "",
-    architecture: "",
+    architecture: "https://github.com/leslie628/task-web-app/#architecture",
     tech: [
       "React",
       "ASP.NET Core Web API",
