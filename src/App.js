@@ -26,7 +26,6 @@ const projects = [
     description: descriptionContent,
     github: "https://github.com/leslie628/microfrontends-portfolio",
     docs: "https://github.com/leslie628/Shell-app/tree/main/docs",
-    demo: "https://storagefrontendapps.z33.web.core.windows.net",
     video:
       "https://youtu.be/mgEzUR9jNC0?list=PLlvAnEJamXnzoip9y9nC-FqSN20fNSiBx",
     architecture:
@@ -63,13 +62,7 @@ const projects = [
     description: descriptionContentProject2,
     demo: "https://next-js-products-app.vercel.app/products",
     tech: ["Next.js", "TailWind CSS"],
-  },
-  {
-    title: "Responsive Pricing Plans UI",
-    description: descriptionContentProject3,
-    demo: "https://pricing-plan-upwork.vercel.app/",
-    tech: ["React", "TailWind CSS"],
-  },
+  }
 ];
 
 function Home() {
