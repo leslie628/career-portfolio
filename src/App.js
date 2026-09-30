@@ -18,8 +18,6 @@ let descriptionContent =
 let descriptionContentProject2 =
   "Products grid display and search input with category filter.";
 
-let descriptionContentProject3 =
-  "A fully responsive pricing UI. Includes hover animations, reusable components, and scalable architecture.";
 const projects = [
   {
     title: "Micro Frontend vs Monolithic architecture",
