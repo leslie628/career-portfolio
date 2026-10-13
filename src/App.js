@@ -60,7 +60,20 @@ const projects = [
     description: descriptionContentProject2,
     demo: "https://next-js-products-app.vercel.app/products",
     tech: ["Next.js", "TailWind CSS"],
-  }
+  },
+  {
+    title: "Boxing development app",
+    description:
+      "",
+    github: "https://github.com/leslie628/boxing-development",
+    docs: "",
+    demo: "https://boxing-development.vercel.app/",
+    video: "",
+    architecture: "",
+    tech: [
+      "React",
+    ],
+  },
 ];
 
 function Home() {
