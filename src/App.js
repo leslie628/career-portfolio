@@ -53,6 +53,7 @@ const projects = [
       "HTTP-only Cookies",
       "Render",
       "Supabase",
+      "OpenAI"
     ],
   },
   {
