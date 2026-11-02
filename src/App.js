@@ -73,6 +73,15 @@ const projects = [
     architecture: "",
     tech: [
       "React",
+      "TailWind CSS",
+      "Vite",
+      "React Router",
+      "node.js",
+      "Express",
+      "postgreSQL",
+      "Render",
+      "Supabase",
+      "vercel"
     ],
   },
 ];
